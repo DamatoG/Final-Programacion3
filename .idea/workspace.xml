@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3c79d4ab-eb75-4cbf-837d-5cf3b20661a2" name="Changes" comment="&quot;Crear personajes aleatorios&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs_partidas/Partida-2023-12-19 14_54_40.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs_partidas/Partida-2023-12-19 14_55_34.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs_partidas/Partida-2023-12-19 14_55_49.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/utn/frbb/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utn/frbb/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/utn/frbb/util/GenerarAtributosPjAleatorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/utn/frbb/util/GenerarAtributosPjAleatorio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
