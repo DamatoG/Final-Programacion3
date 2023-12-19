@@ -31,7 +31,7 @@ public class App
             //Menu
             System.out.println("MENÚ PRINCIPAL:\n"
                     + "1. Iniciar partida con personajes aleatorios\n"
-                    + "2. Iniciar partida con personajes custom\n"
+                    + "2. Iniciar partida con personajes custom --- (SIN IMPLEMENTAR)\n"
                     + "3. Leer archivo de ultimas partidas\n"
                     + "4. Borrar archivo logs\n"
                     + "5. Salir\n");
@@ -72,8 +72,6 @@ public class App
                                 case 2:
                                     // secuencia de sentencias.
                                     break;
-                                default:
-                                    System.out.println("Debe seleccionar la Opcion 1 para Eliminar el Archivo o 2 para Volver al menu principal");
                             }
 
                         } else {
@@ -81,7 +79,7 @@ public class App
                         }
 
                     } else {
-                        System.out.println("No hay archivos disponibles");
+                        System.out.println("No hay archivos disponibles. Debe iniciar una partida y automaticamente se guardará el log.");
                     }
                     // listar logs con numero
                     //si el numero es alguno de los expuestos

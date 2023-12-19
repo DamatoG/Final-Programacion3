@@ -53,7 +53,8 @@ public class GenerarAtributosPjAleatorio{
 
             //System.out.println(responseData);
         } catch (IOException e) {
-            e.printStackTrace();
+            //En caso de que el servicio de timeout se de el nombre será "sin nombre" concatenado a un numero aleatorio
+            nombre = nombre + indice;
         }
 
         return nombre;
