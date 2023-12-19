@@ -1,8 +1,9 @@
 package org.utn.frbb.model;
 
 import org.utn.frbb.util.GenerarAtributosPjAleatorio;
+import org.utn.frbb.util.LogToFile;
 
-import java.util.ArrayList;
+import java.io.IOException;
 import java.util.Random;
 
 public class Partida {
@@ -12,6 +13,7 @@ public class Partida {
     Jugador ganador_ultima_ronda;
     int rondas = 3;
     Ronda ronda;
+    LogToFile log;
 
     public Jugador getJ1() {
         return j1;
@@ -23,6 +25,10 @@ public class Partida {
 
     public Jugador getJ2() {
         return j2;
+    }
+
+    public Partida(LogToFile log) {
+        this.log = log;
     }
 
     public void setJ2(Jugador j2) {
@@ -53,66 +59,111 @@ public class Partida {
         this.rondas = rondas;
     }
 
-    public void asignar_pjs(){
+    public void asignar_pjs() throws IOException {
         int count = 1;
         //mientras las lista de los personajes de los jugadores sea menor a 3:
         while (j1.getPersonajes().size() <3 && j2.getPersonajes().size() <3) {
 
             //Creo personaje
-            System.out.println("Creando personaje "+ count +" a Jugador 1");
-
+            log.escribirArchivoYMostrarPorConsola("Creando personaje "+ count +" a Jugador 1");
             Personaje pj_random1 = new Personaje(GenerarAtributosPjAleatorio.generarNombreAleatorio());
+
             //Asigno atributos velocidad; destreza; fuerza; nivel; armadura de manera aleatoria
             Random random = new Random();
-            pj_random1.setVelocidad(random.nextInt(10));
-            pj_random1.setDestreza(random.nextInt(5));
-            pj_random1.setFuerza(random.nextInt(10));
-            pj_random1.setNivel(random.nextInt(10));
-            pj_random1.setArmadura(random.nextInt(10));
+            pj_random1.setVelocidad(random.nextInt(10)+1);
+            pj_random1.setDestreza(random.nextInt(5)+1);
+            pj_random1.setFuerza(random.nextInt(10)+1);
+            pj_random1.setNivel(random.nextInt(10)+1);
+            pj_random1.setArmadura(random.nextInt(10)+1);
             pj_random1.setRaza(GenerarAtributosPjAleatorio.asignarRazaAleatorio());
 
             //lo añado a la lista del jugador
-            System.out.println(pj_random1.getNombre());
+
+            log.escribirArchivoYMostrarPorConsola(pj_random1.getNombre());
             j1.asignar_personaje(pj_random1);
+            log.escribirArchivoYMostrarPorConsola("Creando personaje "+ count +" a Jugador 2");
 
-
-            System.out.println("Creando personaje "+ count +" a Jugador 2");
             //idm j2
             Personaje pj_random2 =  new Personaje(GenerarAtributosPjAleatorio.generarNombreAleatorio());
-            pj_random2.setVelocidad(random.nextInt(10));
-            pj_random2.setDestreza(random.nextInt(5));
-            pj_random2.setFuerza(random.nextInt(10));
-            pj_random2.setNivel(random.nextInt(10));
-            pj_random2.setArmadura(random.nextInt(10));
+
+            pj_random2.setVelocidad(random.nextInt(10)+1);
+            pj_random2.setDestreza(random.nextInt(5)+1);
+            pj_random2.setFuerza(random.nextInt(10)+1);
+            pj_random2.setNivel(random.nextInt(10)+1);
+            pj_random2.setArmadura(random.nextInt(10)+1);
             pj_random2.setRaza(GenerarAtributosPjAleatorio.asignarRazaAleatorio());
-            System.out.println(pj_random2.getNombre());
+            log.escribirArchivoYMostrarPorConsola(pj_random2.getNombre());
             j2.asignar_personaje(pj_random2);
 
             count = count + 1;
         }
         }
 
-        public void mostrar_personajes(Jugador j){
-            System.out.println("Personajes de "+ j.getNombre());
+        public void mostrar_personajes(Jugador j) throws IOException {
+
+            log.escribirArchivoYMostrarPorConsola("Personajes de "+ j.getNombre());
             for (Personaje p: j.getPersonajes()){
-                System.out.println(p.toString());
 
+                log.escribirArchivoYMostrarPorConsola(p.toString());
             }
         }
 
-        public Personaje sortear_personajes(Jugador j){
-            ArrayList<Personaje> personajes_vivos = new ArrayList<>();
 
-            for(Personaje pj: j.getPersonajes()){
-                if(pj.isVivo()){
-                    personajes_vivos.add(pj);
-                }
+    public void iniciar_partida() throws IOException {
+        Jugador jugadorPrimeroEnAtacar;
+        Jugador jugadorSegundoEnAtacar;
+
+        // Sorteo del jugador que comienza atacando en la primera ronda
+        if (new Random().nextBoolean()) {
+            jugadorPrimeroEnAtacar = j1;
+            jugadorSegundoEnAtacar = j2;
+        } else {
+            jugadorPrimeroEnAtacar = j2;
+            jugadorSegundoEnAtacar = j1;
+        }
+
+        int numero_ronda = 1;
+        Jugador ganadorRonda = null;
+        while (jugadorPrimeroEnAtacar.algunPersonajeVivo() && jugadorSegundoEnAtacar.algunPersonajeVivo()) {
+            // Crear una nueva r con los personajes sorteados
+
+            Ronda r = new Ronda(jugadorPrimeroEnAtacar, jugadorSegundoEnAtacar,numero_ronda, log);
+
+
+            log.escribirArchivoYMostrarPorConsola("\n-------------------------------------------------------------" +
+                    "\n-------Ronda " + numero_ronda+"---------" +
+                    "\n-------------------------------------------------------------\n\n");
+
+            if (ganadorRonda != null && numero_ronda >1){
+
+                log.escribirArchivoYMostrarPorConsola("Comienza atacando el jugador " + jugadorPrimeroEnAtacar.getNombre() +" por perder la ronda anterior");
+            } else {
+
+                log.escribirArchivoYMostrarPorConsola("El sistema sorteó al jugador " + jugadorPrimeroEnAtacar.getNombre() + " para iniciar la ronda numero "+ numero_ronda);
             }
 
-            Random random = new Random();
-            int indice = random.nextInt(personajes_vivos.size());
-            return personajes_vivos.get(indice);
+            r.msj_pj_sorteado();
+            r.iniciar_ronda();
+
+            // Determinar el próximo jugador que comenzará a atacar
+            ganadorRonda = r.getGanador();
+
+            if (ganadorRonda == null) {
+                // Ningun jugador ha perdido un personaje, sortear nuevamente
+                jugadorPrimeroEnAtacar = (new Random().nextBoolean()) ? j1 : j2;
+            } else {
+                // El jugador ganador comienza a atacar en la próxima ronda
+                jugadorPrimeroEnAtacar = (ganadorRonda == j1)? j2:j1;
+                log.escribirArchivoYMostrarPorConsola("EL jugador " + ganadorRonda.getNombre() + " ha ganado la ronda numero " + numero_ronda);
+
+            }
+            jugadorSegundoEnAtacar = (jugadorPrimeroEnAtacar == j1) ? j2 : j1;
+            numero_ronda+=1;
         }
+
+        log.escribirArchivoYMostrarPorConsola("El jugador " + ganadorRonda.getNombre() + " ha ganado la pardida ");
+        log.escribirArchivoYMostrarPorConsola("------------------La partida ha terminado.------------------");
+    }
 
 
 }

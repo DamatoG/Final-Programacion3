@@ -40,5 +40,14 @@ public class Jugador {
         personajes.add(pj);
     };
 
+    public boolean algunPersonajeVivo() {
+        for (Personaje personaje : this.getPersonajes()) {
+            if (personaje.isVivo()) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 
 }

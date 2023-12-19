@@ -1,0 +1,349 @@
+INICIO PARTIDA
+
+-------------------------------------------------------------
+-------BIENVENIDOS AL MEJOR JUEGO DE ROLES DE LA UTN---------
+-------------------------------------------------------------
+
+Ingrese el nombre del jugador 1: 
+sssssssssss
+Ingrese el nombre del jugador 2: 
+nnnnnnnnnn
+
+El duelo del dia de hoy será entre sssssssssss VS nnnnnnnnnn
+
+--------------------------------
+|   SORTEANDO PERSONAJES....   |
+--------------------------------
+
+Creando personaje 1 a Jugador 1
+Antenna Rick
+Creando personaje 1 a Jugador 2
+Abradolf Lincler
+Creando personaje 2 a Jugador 1
+Turkey Rick
+Creando personaje 2 a Jugador 2
+Squeeb
+Creando personaje 3 a Jugador 1
+Michael Jenkins
+Creando personaje 3 a Jugador 2
+Eric McMan
+
+
+
+----------PERSONAJES CREADOS----------
+
+
+
+Personajes de sssssssssss
+Nombre: 'Antenna Rick', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 1, 
+Destreza: 1, 
+Fuerza: 2, 
+Nivel: 7, 
+Armadura: 5, 
+Vivo: true
+
+Nombre: 'Turkey Rick', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 2, 
+Destreza: 3, 
+Fuerza: 3, 
+Nivel: 8, 
+Armadura: 6, 
+Vivo: true
+
+Nombre: 'Michael Jenkins', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 9, 
+Destreza: 3, 
+Fuerza: 1, 
+Nivel: 5, 
+Armadura: 6, 
+Vivo: true
+
+Personajes de nnnnnnnnnn
+Nombre: 'Abradolf Lincler', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 1, 
+Destreza: 2, 
+Fuerza: 4, 
+Nivel: 3, 
+Armadura: 9, 
+Vivo: true
+
+Nombre: 'Squeeb', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 1, 
+Destreza: 4, 
+Fuerza: 3, 
+Nivel: 2, 
+Armadura: 1, 
+Vivo: true
+
+Nombre: 'Eric McMan', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 3, 
+Destreza: 2, 
+Fuerza: 5, 
+Nivel: 1, 
+Armadura: 4, 
+Vivo: true
+
+
+--------------------------------
+|   Que comience el juego....   |
+--------------------------------
+
+
+-------------------------------------------------------------
+-------Ronda 1---------
+-------------------------------------------------------------
+
+
+El sistema sorteó al jugador nnnnnnnnnn para iniciar la ronda numero 1
+El personaje sorteado de nnnnnnnnnn es Nombre: 'Eric McMan', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 3, 
+Destreza: 2, 
+Fuerza: 5, 
+Nivel: 1, 
+Armadura: 4, 
+Vivo: true
+
+El personaje sorteado de sssssssssss es Nombre: 'Antenna Rick', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 1, 
+Destreza: 1, 
+Fuerza: 2, 
+Nivel: 7, 
+Armadura: 5, 
+Vivo: true
+
+Eric McMan ataca a Antenna Rick y le quita 0.0. Antenna Rick queda con 100.0 de salud
+Antenna Rick ataca a Eric McMan y le quita 8.200000000000001. Eric McMan queda con 91.8 de salud
+Eric McMan ataca a Antenna Rick y le quita 5.2. Antenna Rick queda con 94.8 de salud
+Antenna Rick ataca a Eric McMan y le quita 13.4. Eric McMan queda con 78.39999999999999 de salud
+Eric McMan ataca a Antenna Rick y le quita 4.4. Antenna Rick queda con 90.39999999999999 de salud
+Antenna Rick ataca a Eric McMan y le quita 2.6. Eric McMan queda con 75.8 de salud
+Eric McMan ataca a Antenna Rick y le quita 6.4. Antenna Rick queda con 83.99999999999999 de salud
+Antenna Rick ataca a Eric McMan y le quita 5.0. Eric McMan queda con 70.8 de salud
+Eric McMan ataca a Antenna Rick y le quita 0.8. Antenna Rick queda con 83.19999999999999 de salud
+Antenna Rick ataca a Eric McMan y le quita 5.4. Eric McMan queda con 65.39999999999999 de salud
+Eric McMan ataca a Antenna Rick y le quita 18.0. Antenna Rick queda con 65.19999999999999 de salud
+Antenna Rick ataca a Eric McMan y le quita 11.200000000000001. Eric McMan queda con 54.19999999999999 de salud
+Eric McMan ataca a Antenna Rick y le quita 1.8. Antenna Rick queda con 63.39999999999999 de salud
+Antenna Rick ataca a Eric McMan y le quita 9.4. Eric McMan queda con 44.79999999999999 de salud
+
+-------------------------------------------------------------
+-------Ronda 2---------
+-------------------------------------------------------------
+
+
+El sistema sorteó al jugador nnnnnnnnnn para iniciar la ronda numero 2
+El personaje sorteado de nnnnnnnnnn es Nombre: 'Eric McMan', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 44.79999999999999, 
+Velocidad: 3, 
+Destreza: 2, 
+Fuerza: 5, 
+Nivel: 1, 
+Armadura: 4, 
+Vivo: true
+
+El personaje sorteado de sssssssssss es Nombre: 'Turkey Rick', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 2, 
+Destreza: 3, 
+Fuerza: 3, 
+Nivel: 8, 
+Armadura: 6, 
+Vivo: true
+
+Eric McMan ataca a Turkey Rick y le quita 4.800000000000001. Turkey Rick queda con 95.2 de salud
+Turkey Rick ataca a Eric McMan y le quita 92.4. Eric McMan queda con -47.600000000000016 de salud
+Eric McMan ha muerto.
+EL jugador sssssssssss ha ganado la ronda numero 2
+
+-------------------------------------------------------------
+-------Ronda 3---------
+-------------------------------------------------------------
+
+
+Comienza atacando el jugador nnnnnnnnnn por perder la ronda anterior
+El personaje sorteado de nnnnnnnnnn es Nombre: 'Abradolf Lincler', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 1, 
+Destreza: 2, 
+Fuerza: 4, 
+Nivel: 3, 
+Armadura: 9, 
+Vivo: true
+
+El personaje sorteado de sssssssssss es Nombre: 'Antenna Rick', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 63.39999999999999, 
+Velocidad: 1, 
+Destreza: 1, 
+Fuerza: 2, 
+Nivel: 7, 
+Armadura: 5, 
+Vivo: true
+
+Abradolf Lincler ataca a Antenna Rick y le quita 0.4. Antenna Rick queda con 62.99999999999999 de salud
+Antenna Rick ataca a Abradolf Lincler y le quita 27.200000000000003. Abradolf Lincler queda con 72.8 de salud
+Abradolf Lincler ataca a Antenna Rick y le quita 16.400000000000002. Antenna Rick queda con 46.599999999999994 de salud
+Antenna Rick ataca a Abradolf Lincler y le quita 13.200000000000001. Abradolf Lincler queda con 59.599999999999994 de salud
+Abradolf Lincler ataca a Antenna Rick y le quita 51.0. Antenna Rick queda con -4.400000000000006 de salud
+Antenna Rick ha muerto.
+EL jugador nnnnnnnnnn ha ganado la ronda numero 3
+
+-------------------------------------------------------------
+-------Ronda 4---------
+-------------------------------------------------------------
+
+
+Comienza atacando el jugador sssssssssss por perder la ronda anterior
+El personaje sorteado de sssssssssss es Nombre: 'Michael Jenkins', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 9, 
+Destreza: 3, 
+Fuerza: 1, 
+Nivel: 5, 
+Armadura: 6, 
+Vivo: true
+
+El personaje sorteado de nnnnnnnnnn es Nombre: 'Abradolf Lincler', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 59.599999999999994, 
+Velocidad: 1, 
+Destreza: 2, 
+Fuerza: 4, 
+Nivel: 3, 
+Armadura: 9, 
+Vivo: true
+
+Michael Jenkins ataca a Abradolf Lincler y le quita 10.4. Abradolf Lincler queda con 49.199999999999996 de salud
+Abradolf Lincler ataca a Michael Jenkins y le quita 15.4. Michael Jenkins queda con 84.6 de salud
+Michael Jenkins ataca a Abradolf Lincler y le quita 40.800000000000004. Abradolf Lincler queda con 8.399999999999991 de salud
+Abradolf Lincler ataca a Michael Jenkins y le quita 37.2. Michael Jenkins queda con 47.39999999999999 de salud
+Michael Jenkins ataca a Abradolf Lincler y le quita 12.600000000000001. Abradolf Lincler queda con -4.20000000000001 de salud
+Abradolf Lincler ha muerto.
+EL jugador sssssssssss ha ganado la ronda numero 4
+
+-------------------------------------------------------------
+-------Ronda 5---------
+-------------------------------------------------------------
+
+
+Comienza atacando el jugador nnnnnnnnnn por perder la ronda anterior
+El personaje sorteado de nnnnnnnnnn es Nombre: 'Squeeb', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 1, 
+Destreza: 4, 
+Fuerza: 3, 
+Nivel: 2, 
+Armadura: 1, 
+Vivo: true
+
+El personaje sorteado de sssssssssss es Nombre: 'Michael Jenkins', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 47.39999999999999, 
+Velocidad: 9, 
+Destreza: 3, 
+Fuerza: 1, 
+Nivel: 5, 
+Armadura: 6, 
+Vivo: true
+
+Squeeb ataca a Michael Jenkins y le quita 1.4000000000000001. Michael Jenkins queda con 45.99999999999999 de salud
+Michael Jenkins ataca a Squeeb y le quita 30.200000000000003. Squeeb queda con 69.8 de salud
+Squeeb ataca a Michael Jenkins y le quita 6.4. Michael Jenkins queda con 39.599999999999994 de salud
+Michael Jenkins ataca a Squeeb y le quita 6.4. Squeeb queda con 63.4 de salud
+Squeeb ataca a Michael Jenkins y le quita 39.0. Michael Jenkins queda con 0.5999999999999943 de salud
+Michael Jenkins ataca a Squeeb y le quita 19.8. Squeeb queda con 43.599999999999994 de salud
+Squeeb ataca a Michael Jenkins y le quita 21.0. Michael Jenkins queda con -20.400000000000006 de salud
+Michael Jenkins ha muerto.
+EL jugador nnnnnnnnnn ha ganado la ronda numero 5
+
+-------------------------------------------------------------
+-------Ronda 6---------
+-------------------------------------------------------------
+
+
+Comienza atacando el jugador sssssssssss por perder la ronda anterior
+El personaje sorteado de sssssssssss es Nombre: 'Turkey Rick', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 95.2, 
+Velocidad: 2, 
+Destreza: 3, 
+Fuerza: 3, 
+Nivel: 8, 
+Armadura: 6, 
+Vivo: true
+
+El personaje sorteado de nnnnnnnnnn es Nombre: 'Squeeb', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 43.599999999999994, 
+Velocidad: 1, 
+Destreza: 4, 
+Fuerza: 3, 
+Nivel: 2, 
+Armadura: 1, 
+Vivo: true
+
+Turkey Rick ataca a Squeeb y le quita 17.6. Squeeb queda con 25.999999999999993 de salud
+Squeeb ataca a Turkey Rick y le quita 13.0. Turkey Rick queda con 82.2 de salud
+Turkey Rick ataca a Squeeb y le quita 100.0. Squeeb queda con -74.0 de salud
+Squeeb ha muerto.
+EL jugador sssssssssss ha ganado la ronda numero 6
+El jugador sssssssssss ha ganado la pardida 
+------------------La partida ha terminado.------------------

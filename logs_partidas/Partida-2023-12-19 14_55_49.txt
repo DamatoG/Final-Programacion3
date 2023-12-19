@@ -1,0 +1,295 @@
+INICIO PARTIDA
+
+-------------------------------------------------------------
+-------BIENVENIDOS AL MEJOR JUEGO DE ROLES DE LA UTN---------
+-------------------------------------------------------------
+
+Ingrese el nombre del jugador 1: 
+aaaa
+Ingrese el nombre del jugador 2: 
+f
+
+El duelo del dia de hoy será entre aaaa VS f
+
+--------------------------------
+|   SORTEANDO PERSONAJES....   |
+--------------------------------
+
+Creando personaje 1 a Jugador 1
+Slaveowner
+Creando personaje 1 a Jugador 2
+Cenobite
+Creando personaje 2 a Jugador 1
+Scarecrow Summer
+Creando personaje 2 a Jugador 2
+Colonial Rick
+Creando personaje 3 a Jugador 1
+Izzy
+Creando personaje 3 a Jugador 2
+Mary-Lou
+
+
+
+----------PERSONAJES CREADOS----------
+
+
+
+Personajes de aaaa
+Nombre: 'Slaveowner', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 6, 
+Destreza: 3, 
+Fuerza: 2, 
+Nivel: 7, 
+Armadura: 7, 
+Vivo: true
+
+Nombre: 'Scarecrow Summer', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 4, 
+Destreza: 4, 
+Fuerza: 8, 
+Nivel: 3, 
+Armadura: 10, 
+Vivo: true
+
+Nombre: 'Izzy', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 9, 
+Destreza: 5, 
+Fuerza: 3, 
+Nivel: 9, 
+Armadura: 4, 
+Vivo: true
+
+Personajes de f
+Nombre: 'Cenobite', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 8, 
+Destreza: 5, 
+Fuerza: 2, 
+Nivel: 1, 
+Armadura: 9, 
+Vivo: true
+
+Nombre: 'Colonial Rick', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 5, 
+Destreza: 2, 
+Fuerza: 9, 
+Nivel: 6, 
+Armadura: 10, 
+Vivo: true
+
+Nombre: 'Mary-Lou', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 10, 
+Destreza: 1, 
+Fuerza: 2, 
+Nivel: 2, 
+Armadura: 8, 
+Vivo: true
+
+
+--------------------------------
+|   Que comience el juego....   |
+--------------------------------
+
+
+-------------------------------------------------------------
+-------Ronda 1---------
+-------------------------------------------------------------
+
+
+El sistema sorteó al jugador f para iniciar la ronda numero 1
+El personaje sorteado de f es Nombre: 'Mary-Lou', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 10, 
+Destreza: 1, 
+Fuerza: 2, 
+Nivel: 2, 
+Armadura: 8, 
+Vivo: true
+
+El personaje sorteado de aaaa es Nombre: 'Slaveowner', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 6, 
+Destreza: 3, 
+Fuerza: 2, 
+Nivel: 7, 
+Armadura: 7, 
+Vivo: true
+
+Mary-Lou ataca a Slaveowner y le quita 7.0. Slaveowner queda con 93.0 de salud
+Slaveowner ataca a Mary-Lou y le quita 78.2. Mary-Lou queda con 21.799999999999997 de salud
+Mary-Lou ataca a Slaveowner y le quita 3.4000000000000004. Slaveowner queda con 89.6 de salud
+Slaveowner ataca a Mary-Lou y le quita 44.0. Mary-Lou queda con -22.200000000000003 de salud
+Mary-Lou ha muerto.
+EL jugador aaaa ha ganado la ronda numero 1
+
+-------------------------------------------------------------
+-------Ronda 2---------
+-------------------------------------------------------------
+
+
+Comienza atacando el jugador f por perder la ronda anterior
+El personaje sorteado de f es Nombre: 'Colonial Rick', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 5, 
+Destreza: 2, 
+Fuerza: 9, 
+Nivel: 6, 
+Armadura: 10, 
+Vivo: true
+
+El personaje sorteado de aaaa es Nombre: 'Scarecrow Summer', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 4, 
+Destreza: 4, 
+Fuerza: 8, 
+Nivel: 3, 
+Armadura: 10, 
+Vivo: true
+
+Colonial Rick ataca a Scarecrow Summer y le quita 116.4. Scarecrow Summer queda con -16.400000000000006 de salud
+Scarecrow Summer ha muerto.
+EL jugador f ha ganado la ronda numero 2
+
+-------------------------------------------------------------
+-------Ronda 3---------
+-------------------------------------------------------------
+
+
+Comienza atacando el jugador aaaa por perder la ronda anterior
+El personaje sorteado de aaaa es Nombre: 'Izzy', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 9, 
+Destreza: 5, 
+Fuerza: 3, 
+Nivel: 9, 
+Armadura: 4, 
+Vivo: true
+
+El personaje sorteado de f es Nombre: 'Colonial Rick', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 5, 
+Destreza: 2, 
+Fuerza: 9, 
+Nivel: 6, 
+Armadura: 10, 
+Vivo: true
+
+Izzy ataca a Colonial Rick y le quita 22.200000000000003. Colonial Rick queda con 77.8 de salud
+Colonial Rick ataca a Izzy y le quita 287.2. Izzy queda con -187.2 de salud
+Izzy ha muerto.
+EL jugador f ha ganado la ronda numero 3
+
+-------------------------------------------------------------
+-------Ronda 4---------
+-------------------------------------------------------------
+
+
+Comienza atacando el jugador aaaa por perder la ronda anterior
+El personaje sorteado de aaaa es Nombre: 'Slaveowner', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 89.6, 
+Velocidad: 6, 
+Destreza: 3, 
+Fuerza: 2, 
+Nivel: 7, 
+Armadura: 7, 
+Vivo: true
+
+El personaje sorteado de f es Nombre: 'Cenobite', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 8, 
+Destreza: 5, 
+Fuerza: 2, 
+Nivel: 1, 
+Armadura: 9, 
+Vivo: true
+
+Slaveowner ataca a Cenobite y le quita 13.600000000000001. Cenobite queda con 86.4 de salud
+Cenobite ataca a Slaveowner y le quita 18.0. Slaveowner queda con 71.6 de salud
+Slaveowner ataca a Cenobite y le quita 0.0. Cenobite queda con 86.4 de salud
+Cenobite ataca a Slaveowner y le quita 12.600000000000001. Slaveowner queda con 58.99999999999999 de salud
+Slaveowner ataca a Cenobite y le quita 123.80000000000001. Cenobite queda con -37.400000000000006 de salud
+Cenobite ha muerto.
+EL jugador aaaa ha ganado la ronda numero 4
+
+-------------------------------------------------------------
+-------Ronda 5---------
+-------------------------------------------------------------
+
+
+Comienza atacando el jugador f por perder la ronda anterior
+El personaje sorteado de f es Nombre: 'Colonial Rick', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 77.8, 
+Velocidad: 5, 
+Destreza: 2, 
+Fuerza: 9, 
+Nivel: 6, 
+Armadura: 10, 
+Vivo: true
+
+El personaje sorteado de aaaa es Nombre: 'Slaveowner', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 58.99999999999999, 
+Velocidad: 6, 
+Destreza: 3, 
+Fuerza: 2, 
+Nivel: 7, 
+Armadura: 7, 
+Vivo: true
+
+Colonial Rick ataca a Slaveowner y le quita 160.8. Slaveowner queda con -101.80000000000001 de salud
+Slaveowner ha muerto.
+EL jugador f ha ganado la ronda numero 5
+El jugador f ha ganado la pardida 
+------------------La partida ha terminado.------------------

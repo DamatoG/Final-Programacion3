@@ -132,6 +132,7 @@ public class Personaje {
     }
 
     public boolean isVivo() {
+        this.vivo=(getSalud()>0)?true:false;
         return vivo;
     }
 
@@ -149,26 +150,29 @@ public class Personaje {
         return poder_disparo() * efectividad_disparo();
     }
 
-    public int poder_defensa(){
+    public int poderDefensa(){
         return this.armadura * this.velocidad;
     }
 
-    public void actualizar_salud(double daño_recibido){
+    public void actualizarSalud(double daño_recibido){
         setSalud(getSalud()-daño_recibido);
     }
 
-    public double daño_provocado() {
+    public double dañoProvocado(int poder_defensa) {
         double daño;
 
         if (this.raza.equals("humano")) {
-            daño = 1.0;
+            //daño = 1.0;
+            daño = 0.1;
         } else if (this.raza.equals("elfo")) {
-            daño = 1.05;
+            //daño = 1.05;
+            daño = 0.15;
         } else {
-            daño = 1.1;
+            //daño = 1.1;
+            daño = 0.2;
         }
 
-        return ((valor_ataque()*efectividad_disparo())/500)*daño;
+        return ((((valor_ataque()*efectividad_disparo())-poder_defensa)/500)*daño);
     }
 
     @Override
