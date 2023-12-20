@@ -27,7 +27,7 @@ public class LogToFile {
 
 
         // Construir la ruta del archivo utilizando Path
-        Path rutaArchivo = Paths.get("C:", "Users", "Usuario", "Documents", "TUP", "UTN", "3ER CUATRIMESTRE", "PROGRAMACION3", "final-progra3", "logs_partidas", this.nombre_archivo);
+        Path rutaArchivo = Paths.get("logs_partidas", this.nombre_archivo);
         // Crear directorios si no existen
         rutaArchivo.toFile().getParentFile().mkdirs();
 

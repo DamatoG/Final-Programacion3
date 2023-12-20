@@ -1,7 +1,0 @@
-INICIO PARTIDA
-
--------------------------------------------------------------
--------BIENVENIDOS AL MEJOR JUEGO DE ROLES DE LA UTN---------
--------------------------------------------------------------
-
-Ingrese el nombre del jugador 1: 
