@@ -1,0 +1,318 @@
+INICIO PARTIDA
+
+-------------------------------------------------------------
+-------BIENVENIDOS AL MEJOR JUEGO DE ROLES DE LA UTN---------
+-------------------------------------------------------------
+
+Ingrese el nombre del jugador 1: 
+1
+Ingrese el nombre del jugador 2: 
+2
+
+El duelo del dia de hoy será entre 1 VS 2
+
+--------------------------------
+|   SORTEANDO PERSONAJES....   |
+--------------------------------
+
+Creando personaje 1 a Jugador 1
+Chang
+Creando personaje 1 a Jugador 2
+Gramuflackian General
+Creando personaje 2 a Jugador 1
+Shrimply Pibbles
+Creando personaje 2 a Jugador 2
+Yaarb
+Creando personaje 3 a Jugador 1
+Johnny Carson
+Creando personaje 3 a Jugador 2
+Rick D. Sanchez III
+
+
+
+----------PERSONAJES CREADOS----------
+
+
+
+Personajes de 1
+Nombre: 'Chang', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 5, 
+Destreza: 4, 
+Fuerza: 3, 
+Nivel: 8, 
+Armadura: 6, 
+Vivo: true
+
+Nombre: 'Shrimply Pibbles', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 3, 
+Destreza: 4, 
+Fuerza: 2, 
+Nivel: 2, 
+Armadura: 4, 
+Vivo: true
+
+Nombre: 'Johnny Carson', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 3, 
+Destreza: 5, 
+Fuerza: 1, 
+Nivel: 7, 
+Armadura: 10, 
+Vivo: true
+
+Personajes de 2
+Nombre: 'Gramuflackian General', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 5, 
+Destreza: 3, 
+Fuerza: 9, 
+Nivel: 3, 
+Armadura: 10, 
+Vivo: true
+
+Nombre: 'Yaarb', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 8, 
+Destreza: 2, 
+Fuerza: 8, 
+Nivel: 6, 
+Armadura: 9, 
+Vivo: true
+
+Nombre: 'Rick D. Sanchez III', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 3, 
+Destreza: 1, 
+Fuerza: 2, 
+Nivel: 3, 
+Armadura: 8, 
+Vivo: true
+
+
+--------------------------------
+|   Que comience el juego....   |
+--------------------------------
+
+
+------------------------
+-------Ronda 1---------
+------------------------
+
+
+El sistema sorteó al jugador 1 para iniciar la ronda numero 1
+El personaje sorteado de 1 es Nombre: 'Shrimply Pibbles', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 3, 
+Destreza: 4, 
+Fuerza: 2, 
+Nivel: 2, 
+Armadura: 4, 
+Vivo: true
+
+El personaje sorteado de 2 es Nombre: 'Rick D. Sanchez III', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 3, 
+Destreza: 1, 
+Fuerza: 2, 
+Nivel: 3, 
+Armadura: 8, 
+Vivo: true
+
+Shrimply Pibbles ataca a Rick D. Sanchez III y le quita 3.2. Rick D. Sanchez III queda con 96.8 de salud
+Rick D. Sanchez III ataca a Shrimply Pibbles y le quita 7.4. Shrimply Pibbles queda con 92.6 de salud
+Shrimply Pibbles ataca a Rick D. Sanchez III y le quita 36.800000000000004. Rick D. Sanchez III queda con 59.99999999999999 de salud
+Rick D. Sanchez III ataca a Shrimply Pibbles y le quita 3.4000000000000004. Shrimply Pibbles queda con 89.19999999999999 de salud
+Shrimply Pibbles ataca a Rick D. Sanchez III y le quita 7.0. Rick D. Sanchez III queda con 52.99999999999999 de salud
+Rick D. Sanchez III ataca a Shrimply Pibbles y le quita 8.4. Shrimply Pibbles queda con 80.79999999999998 de salud
+Shrimply Pibbles ataca a Rick D. Sanchez III y le quita 23.6. Rick D. Sanchez III queda con 29.39999999999999 de salud
+Rick D. Sanchez III ataca a Shrimply Pibbles y le quita 5.800000000000001. Shrimply Pibbles queda con 74.99999999999999 de salud
+Shrimply Pibbles ataca a Rick D. Sanchez III y le quita 33.800000000000004. Rick D. Sanchez III queda con -4.400000000000013 de salud
+Rick D. Sanchez III ha muerto.
+EL jugador 1 ha ganado la ronda numero 1
+
+
+------------------------
+-------Ronda 2---------
+------------------------
+
+
+Comienza atacando el jugador 2 por perder la ronda anterior
+El personaje sorteado de 2 es Nombre: 'Yaarb', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 8, 
+Destreza: 2, 
+Fuerza: 8, 
+Nivel: 6, 
+Armadura: 9, 
+Vivo: true
+
+El personaje sorteado de 1 es Nombre: 'Shrimply Pibbles', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 74.99999999999999, 
+Velocidad: 3, 
+Destreza: 4, 
+Fuerza: 2, 
+Nivel: 2, 
+Armadura: 4, 
+Vivo: true
+
+Yaarb ataca a Shrimply Pibbles y le quita 17.8. Shrimply Pibbles queda con 57.19999999999999 de salud
+Shrimply Pibbles ataca a Yaarb y le quita 0.2. Yaarb queda con 99.8 de salud
+Yaarb ataca a Shrimply Pibbles y le quita 17.8. Shrimply Pibbles queda con 39.39999999999999 de salud
+Shrimply Pibbles ataca a Yaarb y le quita 22.400000000000002. Yaarb queda con 77.39999999999999 de salud
+Yaarb ataca a Shrimply Pibbles y le quita 38.0. Shrimply Pibbles queda con 1.3999999999999915 de salud
+Shrimply Pibbles ataca a Yaarb y le quita 9.4. Yaarb queda con 67.99999999999999 de salud
+Yaarb ataca a Shrimply Pibbles y le quita 82.80000000000001. Shrimply Pibbles queda con -81.40000000000002 de salud
+Shrimply Pibbles ha muerto.
+EL jugador 2 ha ganado la ronda numero 2
+
+
+------------------------
+-------Ronda 3---------
+------------------------
+
+
+Comienza atacando el jugador 1 por perder la ronda anterior
+El personaje sorteado de 1 es Nombre: 'Chang', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 5, 
+Destreza: 4, 
+Fuerza: 3, 
+Nivel: 8, 
+Armadura: 6, 
+Vivo: true
+
+El personaje sorteado de 2 es Nombre: 'Gramuflackian General', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 5, 
+Destreza: 3, 
+Fuerza: 9, 
+Nivel: 3, 
+Armadura: 10, 
+Vivo: true
+
+Chang ataca a Gramuflackian General y le quita 79.80000000000001. Gramuflackian General queda con 20.19999999999999 de salud
+Gramuflackian General ataca a Chang y le quita 6.2. Chang queda con 93.8 de salud
+Chang ataca a Gramuflackian General y le quita 98.2. Gramuflackian General queda con -78.00000000000001 de salud
+Gramuflackian General ha muerto.
+EL jugador 1 ha ganado la ronda numero 3
+
+
+------------------------
+-------Ronda 4---------
+------------------------
+
+
+Comienza atacando el jugador 2 por perder la ronda anterior
+El personaje sorteado de 2 es Nombre: 'Yaarb', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 67.99999999999999, 
+Velocidad: 8, 
+Destreza: 2, 
+Fuerza: 8, 
+Nivel: 6, 
+Armadura: 9, 
+Vivo: true
+
+El personaje sorteado de 1 es Nombre: 'Chang', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 93.8, 
+Velocidad: 5, 
+Destreza: 4, 
+Fuerza: 3, 
+Nivel: 8, 
+Armadura: 6, 
+Vivo: true
+
+Yaarb ataca a Chang y le quita 96.0. Chang queda con -2.200000000000003 de salud
+Chang ha muerto.
+EL jugador 2 ha ganado la ronda numero 4
+
+
+------------------------
+-------Ronda 5---------
+------------------------
+
+
+Comienza atacando el jugador 1 por perder la ronda anterior
+El personaje sorteado de 1 es Nombre: 'Johnny Carson', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 3, 
+Destreza: 5, 
+Fuerza: 1, 
+Nivel: 7, 
+Armadura: 10, 
+Vivo: true
+
+El personaje sorteado de 2 es Nombre: 'Yaarb', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 67.99999999999999, 
+Velocidad: 8, 
+Destreza: 2, 
+Fuerza: 8, 
+Nivel: 6, 
+Armadura: 9, 
+Vivo: true
+
+Johnny Carson ataca a Yaarb y le quita 15.0. Yaarb queda con 52.999999999999986 de salud
+Yaarb ataca a Johnny Carson y le quita 33.6. Johnny Carson queda con 66.4 de salud
+Johnny Carson ataca a Yaarb y le quita 9.600000000000001. Yaarb queda con 43.399999999999984 de salud
+Yaarb ataca a Johnny Carson y le quita 2.8000000000000003. Johnny Carson queda con 63.60000000000001 de salud
+Johnny Carson ataca a Yaarb y le quita 15.600000000000001. Yaarb queda con 27.799999999999983 de salud
+Yaarb ataca a Johnny Carson y le quita 206.4. Johnny Carson queda con -142.8 de salud
+Johnny Carson ha muerto.
+EL jugador 2 ha ganado la ronda numero 5
+
+"------------------FELICITACIONES------------------
+El jugador 2 ha ganado la pardida 
+
+
+------------------La partida ha terminado.------------------
+
+

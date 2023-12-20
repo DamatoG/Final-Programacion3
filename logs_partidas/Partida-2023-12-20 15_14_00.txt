@@ -1,0 +1,303 @@
+INICIO PARTIDA
+
+-------------------------------------------------------------
+-------BIENVENIDOS AL MEJOR JUEGO DE ROLES DE LA UTN---------
+-------------------------------------------------------------
+
+Ingrese el nombre del jugador 1: 
+jUAN
+Ingrese el nombre del jugador 2: 
+PEPE
+
+El duelo del dia de hoy será entre jUAN VS PEPE
+
+--------------------------------
+|   SORTEANDO PERSONAJES....   |
+--------------------------------
+
+Creando personaje 1 a Jugador 1
+Elon Tusk
+Creando personaje 1 a Jugador 2
+Lisa
+Creando personaje 2 a Jugador 1
+Jerry Smith
+Creando personaje 2 a Jugador 2
+Wicker Morty
+Creando personaje 3 a Jugador 1
+Jan-Michael Vincent
+Creando personaje 3 a Jugador 2
+Angry Glorzo
+
+
+
+----------PERSONAJES CREADOS----------
+
+
+
+Personajes de jUAN
+Nombre: 'Elon Tusk', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 8, 
+Destreza: 4, 
+Fuerza: 9, 
+Nivel: 10, 
+Armadura: 8, 
+Vivo: true
+
+Nombre: 'Jerry Smith', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 3, 
+Destreza: 3, 
+Fuerza: 3, 
+Nivel: 8, 
+Armadura: 2, 
+Vivo: true
+
+Nombre: 'Jan-Michael Vincent', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 6, 
+Destreza: 5, 
+Fuerza: 1, 
+Nivel: 10, 
+Armadura: 9, 
+Vivo: true
+
+Personajes de PEPE
+Nombre: 'Lisa', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 10, 
+Destreza: 3, 
+Fuerza: 8, 
+Nivel: 1, 
+Armadura: 6, 
+Vivo: true
+
+Nombre: 'Wicker Morty', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 7, 
+Destreza: 3, 
+Fuerza: 7, 
+Nivel: 4, 
+Armadura: 6, 
+Vivo: true
+
+Nombre: 'Angry Glorzo', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 7, 
+Destreza: 1, 
+Fuerza: 4, 
+Nivel: 3, 
+Armadura: 7, 
+Vivo: true
+
+
+--------------------------------
+|   Que comience el juego....   |
+--------------------------------
+
+
+-------------------------------------------------------------
+-------Ronda 1---------
+-------------------------------------------------------------
+
+
+El sistema sorteó al jugador PEPE para iniciar la ronda numero 1
+El personaje sorteado de PEPE es Nombre: 'Angry Glorzo', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 7, 
+Destreza: 1, 
+Fuerza: 4, 
+Nivel: 3, 
+Armadura: 7, 
+Vivo: true
+
+El personaje sorteado de jUAN es Nombre: 'Jerry Smith', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 3, 
+Destreza: 3, 
+Fuerza: 3, 
+Nivel: 8, 
+Armadura: 2, 
+Vivo: true
+
+Angry Glorzo ataca a Jerry Smith y le quita 0.8. Jerry Smith queda con 99.2 de salud
+Jerry Smith ataca a Angry Glorzo y le quita 33.2. Angry Glorzo queda con 66.8 de salud
+Angry Glorzo ataca a Jerry Smith y le quita 8.8. Jerry Smith queda con 90.4 de salud
+Jerry Smith ataca a Angry Glorzo y le quita 9.0. Angry Glorzo queda con 57.8 de salud
+Angry Glorzo ataca a Jerry Smith y le quita 7.4. Jerry Smith queda con 83.0 de salud
+Jerry Smith ataca a Angry Glorzo y le quita 8.8. Angry Glorzo queda con 49.0 de salud
+Angry Glorzo ataca a Jerry Smith y le quita 2.6. Jerry Smith queda con 80.4 de salud
+Jerry Smith ataca a Angry Glorzo y le quita 179.20000000000002. Angry Glorzo queda con -130.20000000000002 de salud
+Angry Glorzo ha muerto.
+EL jugador jUAN ha ganado la ronda numero 1
+
+-------------------------------------------------------------
+-------Ronda 2---------
+-------------------------------------------------------------
+
+
+Comienza atacando el jugador PEPE por perder la ronda anterior
+El personaje sorteado de PEPE es Nombre: 'Wicker Morty', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 7, 
+Destreza: 3, 
+Fuerza: 7, 
+Nivel: 4, 
+Armadura: 6, 
+Vivo: true
+
+El personaje sorteado de jUAN es Nombre: 'Elon Tusk', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 8, 
+Destreza: 4, 
+Fuerza: 9, 
+Nivel: 10, 
+Armadura: 8, 
+Vivo: true
+
+Wicker Morty ataca a Elon Tusk y le quita 272.0. Elon Tusk queda con -172.0 de salud
+Elon Tusk ha muerto.
+EL jugador PEPE ha ganado la ronda numero 2
+
+-------------------------------------------------------------
+-------Ronda 3---------
+-------------------------------------------------------------
+
+
+Comienza atacando el jugador jUAN por perder la ronda anterior
+El personaje sorteado de jUAN es Nombre: 'Jerry Smith', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 80.4, 
+Velocidad: 3, 
+Destreza: 3, 
+Fuerza: 3, 
+Nivel: 8, 
+Armadura: 2, 
+Vivo: true
+
+El personaje sorteado de PEPE es Nombre: 'Lisa', 
+Apodo: 'null', 
+Raza: humano, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 10, 
+Destreza: 3, 
+Fuerza: 8, 
+Nivel: 1, 
+Armadura: 6, 
+Vivo: true
+
+Jerry Smith ataca a Lisa y le quita 40.400000000000006. Lisa queda con 59.599999999999994 de salud
+Lisa ataca a Jerry Smith y le quita 77.4. Jerry Smith queda con 3.0 de salud
+Jerry Smith ataca a Lisa y le quita 59.6. Lisa queda con -7.105427357601002E-15 de salud
+Lisa ha muerto.
+EL jugador jUAN ha ganado la ronda numero 3
+
+-------------------------------------------------------------
+-------Ronda 4---------
+-------------------------------------------------------------
+
+
+Comienza atacando el jugador PEPE por perder la ronda anterior
+El personaje sorteado de PEPE es Nombre: 'Wicker Morty', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 7, 
+Destreza: 3, 
+Fuerza: 7, 
+Nivel: 4, 
+Armadura: 6, 
+Vivo: true
+
+El personaje sorteado de jUAN es Nombre: 'Jerry Smith', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 3.0, 
+Velocidad: 3, 
+Destreza: 3, 
+Fuerza: 3, 
+Nivel: 8, 
+Armadura: 2, 
+Vivo: true
+
+Wicker Morty ataca a Jerry Smith y le quita 23.8. Jerry Smith queda con -20.8 de salud
+Jerry Smith ha muerto.
+EL jugador PEPE ha ganado la ronda numero 4
+
+-------------------------------------------------------------
+-------Ronda 5---------
+-------------------------------------------------------------
+
+
+Comienza atacando el jugador jUAN por perder la ronda anterior
+El personaje sorteado de jUAN es Nombre: 'Jan-Michael Vincent', 
+Apodo: 'null', 
+Raza: elfo, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 6, 
+Destreza: 5, 
+Fuerza: 1, 
+Nivel: 10, 
+Armadura: 9, 
+Vivo: true
+
+El personaje sorteado de PEPE es Nombre: 'Wicker Morty', 
+Apodo: 'null', 
+Raza: orco, 
+Fecha_nac: null, 
+Salud: 100.0, 
+Velocidad: 7, 
+Destreza: 3, 
+Fuerza: 7, 
+Nivel: 4, 
+Armadura: 6, 
+Vivo: true
+
+Jan-Michael Vincent ataca a Wicker Morty y le quita 23.200000000000003. Wicker Morty queda con 76.8 de salud
+Wicker Morty ataca a Jan-Michael Vincent y le quita 73.0. Jan-Michael Vincent queda con 27.0 de salud
+Jan-Michael Vincent ataca a Wicker Morty y le quita 44.800000000000004. Wicker Morty queda con 31.999999999999993 de salud
+Wicker Morty ataca a Jan-Michael Vincent y le quita 68.0. Jan-Michael Vincent queda con -41.0 de salud
+Jan-Michael Vincent ha muerto.
+EL jugador PEPE ha ganado la ronda numero 5
+"------------------FELICITACIONES------------------\nEl jugador PEPE ha ganado la pardida 
+
+
+------------------La partida ha terminado.------------------
+
+

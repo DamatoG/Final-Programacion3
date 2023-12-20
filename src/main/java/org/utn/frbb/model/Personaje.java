@@ -20,7 +20,10 @@ public class Personaje {
     private int armadura;
     private boolean vivo;
 
+
     public Personaje() {
+        this.vivo = true;
+        this.salud = 100.0;
     }
 
     public Personaje( String nombre) {

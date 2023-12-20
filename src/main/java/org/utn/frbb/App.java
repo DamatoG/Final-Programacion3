@@ -9,17 +9,12 @@ import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+
 public class App
 {
     public static void main( String[] args ) throws IOException {
-        //INICIO PARTIDA
-//        LogToFile log_partida = new LogToFile();
-//        log_partida.crearArchivoLogNuevaPartida();
-
 
         Scanner lectura = new Scanner(System.in);
-
-        //Creo objeto partida
 
         System.out.println("\n-------------------------------------------------------------" +
                 "\n-------BIENVENIDOS AL MEJOR JUEGO DE ROLES DE LA UTN---------" +
@@ -30,8 +25,8 @@ public class App
             try {
             //Menu
             System.out.println("MENÚ PRINCIPAL:\n"
-                    + "1. Iniciar partida con personajes aleatorios\n"
-                    + "2. Iniciar partida con personajes custom --- (SIN IMPLEMENTAR)\n"
+                    + "1. Iniciar partida con personajes aleatorios automaticamente\n"
+                    + "2. Iniciar partida con personajes custom \n"
                     + "3. Leer archivo de ultimas partidas\n"
                     + "4. Borrar archivo logs\n"
                     + "5. Salir\n");
@@ -39,7 +34,7 @@ public class App
             seleccion = lectura.nextInt();
 
 
-
+                //SALIR DEL PROGRAMA
                 if (seleccion == 5) {
                     System.out.println("Hasta pronto. Has salido del juego");
                 }
@@ -116,8 +111,15 @@ public class App
                 }
                 //JUGAR PARTIDAS
                 else if (seleccion == 2 || seleccion == 1) {
+                    //INICIAR CON EL LOG EN ARCHIVO
                     LogToFile log_partida = new LogToFile();
                     Partida partida = new Partida(log_partida);
+                    if (seleccion == 1){
+                        partida.setAutomatico(true);
+                    } else if (seleccion == 2) {
+                        partida.setAutomatico(false);
+                    }
+
 
                     log_partida.crearArchivoLogNuevaPartida();
 
@@ -156,9 +158,11 @@ public class App
                     partida.iniciar_partida();
 
                 }
+                //OPCION DISTINTA ENTRE 1 Y 5
                 else {
                     System.out.println("Selecciona una opción válida (1-5)\n\n");
                 }
+                //MANEJO DE ERROR POR INGRESAR DATO DISTINTO DE ENTERO
                 } catch (InputMismatchException e) {
                 System.out.println("Error: Debe ingresar un NUMERO entre 1 y 5\n\n");
                 lectura.nextLine(); // Limpiar el buffer del scanner

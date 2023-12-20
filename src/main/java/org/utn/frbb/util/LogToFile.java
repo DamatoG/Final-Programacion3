@@ -34,7 +34,7 @@ public class LogToFile {
         File myObj = rutaArchivo.toFile();
 
         if (myObj.createNewFile()) {
-            System.out.println("Archivo creado: " + myObj.getName() + " en " + myObj.getPath());
+            //System.out.println("Archivo creado: " + myObj.getName() + " en " + myObj.getPath());
             FileWriter myWriter = new FileWriter(myObj.getPath() , true);
             myWriter.write("INICIO PARTIDA" + "\n");
 
