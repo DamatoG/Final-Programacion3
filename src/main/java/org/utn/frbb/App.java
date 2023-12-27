@@ -41,9 +41,9 @@ public class App
                 //BORRAR ARCHIVOS
                 else if (seleccion == 4) {
 
-                    File carpeta_logs = new File("C:\\Users\\Usuario\\Documents\\TUP\\UTN\\3ER CUATRIMESTRE\\PROGRAMACION3\\final-progra3\\logs_partidas");
+                    File carpeta_logs = new File("logs_partidas");
                     File[] archivos_logs = carpeta_logs.listFiles();
-                    if (archivos_logs.length >0){
+                    if (archivos_logs != null && archivos_logs.length >0){
                         System.out.println("Selecciona el archivo que desea borrar");
                         int count = 0;
                         for (File archivo : archivos_logs) {
@@ -62,8 +62,23 @@ public class App
                             confirmar_eliminacion = lectura.nextInt();
                             switch (confirmar_eliminacion) {
                                 case 1:
-                                    archivos_logs[seleccion_archivo - 1].delete();
-                                    break;
+//                                    System.out.println(archivos_logs[seleccion_archivo - 1].getName());
+//                                    archivos_logs[seleccion_archivo - 1].delete();
+//                                    break;
+                                try {
+                                    System.out.println(archivos_logs[seleccion_archivo - 1].getName());
+
+                                    if (archivos_logs[seleccion_archivo - 1].delete()) {
+                                        System.out.println("Archivo eliminado con éxito.");
+                                    } else {
+                                        System.out.println("No se pudo eliminar el archivo.");
+                                    }
+                                } catch (SecurityException e) {
+                                    System.out.println("Error de permisos al intentar eliminar el archivo: " + e.getMessage());
+                                } catch (Exception e) {
+                                    System.out.println("Error al intentar eliminar el archivo: " + e.getMessage());
+                                }
+                                break;
                                 case 2:
                                     // secuencia de sentencias.
                                     break;
@@ -84,10 +99,10 @@ public class App
                 //LEER ARCHIVOS LOGS
                 else if (seleccion == 3) {
 
-                    File carpeta_logs = new File("C:\\Users\\Usuario\\Documents\\TUP\\UTN\\3ER CUATRIMESTRE\\PROGRAMACION3\\final-progra3\\logs_partidas");
+                    File carpeta_logs = new File("logs_partidas");
                     File[] archivos_logs = carpeta_logs.listFiles();
 
-                    if (archivos_logs.length >0) {
+                    if (archivos_logs != null && archivos_logs.length >0) {
                         System.out.println("Selecciona el archivo que desea abrir");
                         int count = 1;
                         for (File archivo : archivos_logs) {

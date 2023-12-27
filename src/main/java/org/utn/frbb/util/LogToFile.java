@@ -25,8 +25,7 @@ public class LogToFile {
     public void crearArchivoLogNuevaPartida() throws IOException {
 
 
-
-        // Construir la ruta del archivo utilizando Path
+        // Construir la ruta el archivo utilizando Path
         Path rutaArchivo = Paths.get("logs_partidas", this.nombre_archivo);
         // Crear directorios si no existen
         rutaArchivo.toFile().getParentFile().mkdirs();
